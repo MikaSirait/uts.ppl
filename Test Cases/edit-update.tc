@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>075f3e87-f05c-4a55-b016-0dc9264db8cd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33777d86-9ccc-4469-9073-b0a647b96f47</id>
+      <masked>false</masked>
+      <name>cek_action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e32561cd-3364-4671-8da4-9927bc7fa716</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64638d9e-16d8-4651-afd6-03509688065e</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f30db1c9-9a7f-48de-8e33-50a641f664e9</id>
+      <masked>false</masked>
+      <name>Hasil</name>
+   </variable>
 </TestCaseEntity>

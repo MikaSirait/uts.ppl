@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cek sesuai" time="70.479" tests="3" failures="0" errors="0">
+   <testsuite name="cek sesuai" tests="3" failures="0" errors="0" time="70.479" timestamp="2020-04-08 14:45:28" hostname="lenovo - DESKTOP-HDQA8MU" id="Test Suites/cek sesuai">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\git\\uts.ppl\\Reports\\20200408_144525\\cek sesuai\\20200408_144525"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\git\\uts.ppl\\Reports\\20200408_144525\\cek sesuai\\20200408_144525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - DESKTOP-HDQA8MU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.100.90"/>
+         <property name="sessionId" value="2a53f043-810f-4c9d-b777-dd97691075f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/create" time="24.53" classname="Test Cases/create" status="PASSED">
+         <system-out><![CDATA[2020-04-08 14:45:29 - [TEST_CASE][PASSED] - Test Cases/create: Test Cases/create
+
+2020-04-08 14:45:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-08 14:45:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-08 14:45:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-08 14:45:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-08 14:45:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/ProjectSimpleCI-master/index.php/news"): Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:45:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:45:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:45:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/input_Title_title"), title): Text '12th test' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:45:44 - [MESSAGE][PASSED] - Text '12th test' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:45:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/textarea_Text_text"), text): Text '' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:45:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/input_Text_submit")): Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Home")): Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:45:46 - [TEST_STEP][PASSED] - switch (cek_action.toString()): null
+
+2020-04-08 14:45:46 - [TEST_STEP][PASSED] - case "text kosong":: null
+
+2020-04-08 14:45:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("p_The Text field is required"), 5): Object 'Object Repository/p_The Text field is required' is present
+
+2020-04-08 14:45:46 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Text field is required' is present
+
+2020-04-08 14:45:46 - [TEST_STEP][PASSED] - break: null
+
+2020-04-08 14:45:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 14:45:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create" time="24.769" classname="Test Cases/create" status="PASSED">
+         <system-out><![CDATA[2020-04-08 14:45:54 - [TEST_CASE][PASSED] - Test Cases/create: Test Cases/create
+
+2020-04-08 14:45:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-08 14:45:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-08 14:46:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-08 14:46:06 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/ProjectSimpleCI-master/index.php/news"): Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:46:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/input_Title_title"), title): Text '' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:46:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/textarea_Text_text"), text): Text 'bubuuu' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:46:08 - [MESSAGE][PASSED] - Text 'bubuuu' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:46:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/input_Text_submit")): Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:46:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Home")): Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:46:10 - [TEST_STEP][PASSED] - switch (cek_action.toString()): null
+
+2020-04-08 14:46:10 - [TEST_STEP][PASSED] - case "title kosong":: null
+
+2020-04-08 14:46:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("p_The Title field is required"), 5): Object 'Object Repository/p_The Title field is required' is present
+
+2020-04-08 14:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Title field is required' is present
+
+2020-04-08 14:46:10 - [TEST_STEP][PASSED] - break: null
+
+2020-04-08 14:46:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 14:46:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create" time="20.259" classname="Test Cases/create" status="PASSED">
+         <system-out><![CDATA[2020-04-08 14:46:19 - [TEST_CASE][PASSED] - Test Cases/create: Test Cases/create
+
+2020-04-08 14:46:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-08 14:46:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-08 14:46:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-08 14:46:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/ProjectSimpleCI-master/index.php/news"): Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:46:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost/ProjectSimpleCI-master/index.php/news' successfully
+
+2020-04-08 14:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/input_Title_title"), title): Text '' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:46:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create/input_Title_title'
+
+2020-04-08 14:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create/textarea_Text_text"), text): Text '' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:46:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create/textarea_Text_text'
+
+2020-04-08 14:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/input_Text_submit")): Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/create/input_Text_submit' is clicked on
+
+2020-04-08 14:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Add News")): Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Add News' is clicked on
+
+2020-04-08 14:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/create/a_Home")): Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create/a_Home' is clicked on
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - switch (cek_action.toString()): null
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - case "semua kosong":: null
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("p_The Title field is required"), 5): Object 'Object Repository/p_The Title field is required' is present
+
+2020-04-08 14:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Title field is required' is present
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("p_The Text field is required"), 5): Object 'Object Repository/p_The Text field is required' is present
+
+2020-04-08 14:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Text field is required' is present
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - break: null
+
+2020-04-08 14:46:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 14:46:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-08 14:45:28 - [TEST_SUITE][PASSED] - cek sesuai: Test Cases/create]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

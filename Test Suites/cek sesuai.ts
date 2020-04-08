@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>cek sesuai</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>90cb01ab-f325-4f50-8ff2-48ef8b8af0c4</testSuiteGuid>
+   <testCaseLink>
+      <guid>2a51370e-057e-493f-a075-4d2139c589cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/create</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>30fc9f9d-31ff-4166-a761-38b090cca40f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/create</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>30fc9f9d-31ff-4166-a761-38b090cca40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>cek_action</value>
+         <variableId>73d4795c-f755-44fb-8e92-f878c5c39584</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30fc9f9d-31ff-4166-a761-38b090cca40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>1caed7e4-cd43-4312-8ea4-15df9c7925d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30fc9f9d-31ff-4166-a761-38b090cca40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>text</value>
+         <variableId>1a9d333c-8b4c-4fff-bf1d-bc346ed92501</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30fc9f9d-31ff-4166-a761-38b090cca40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Hasil</value>
+         <variableId>9d33194e-96c2-437d-9dc3-8cb79e3761d3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>292c60e7-6a2a-4c03-879b-d19e2ff96536</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/delete</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b8766bf2-603e-4af5-8979-1359fd926fc1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cf8c40f-f8b8-49d9-ab5a-1ced2fccd9e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/edit-update</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33777d86-9ccc-4469-9073-b0a647b96f47</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e32561cd-3364-4671-8da4-9927bc7fa716</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>64638d9e-16d8-4651-afd6-03509688065e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f30db1c9-9a7f-48de-8e33-50a641f664e9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9df4bbd9-75f1-42dd-98f3-bc6565f7f56e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/read</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

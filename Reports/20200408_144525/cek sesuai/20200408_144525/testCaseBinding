@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/create - Iteration 1","testCaseId":"Test Cases/create","bindedValues":{"Hasil":"\u0027gagal\u0027","text":"\u0027\u0027","title":"\u002712th test\u0027","cek_action":"\u0027text kosong\u0027"}}
+{"testCaseName":"Test Cases/create - Iteration 2","testCaseId":"Test Cases/create","bindedValues":{"Hasil":"\u0027gagal\u0027","text":"\u0027bubuuu\u0027","title":"\u0027\u0027","cek_action":"\u0027title kosong\u0027"}}
+{"testCaseName":"Test Cases/create - Iteration 3","testCaseId":"Test Cases/create","bindedValues":{"Hasil":"\u0027gagal\u0027","text":"\u0027\u0027","title":"\u0027\u0027","cek_action":"\u0027semua kosong\u0027"}}

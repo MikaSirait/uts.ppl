@@ -22,27 +22,36 @@ WebUI.navigateToUrl('http://localhost/ProjectSimpleCI-master/index.php/news')
 
 WebUI.click(findTestObject('Object Repository/create/a_Add News'))
 
-WebUI.setText(findTestObject('Object Repository/create/input_Title_title'), 'new')
+WebUI.setText(findTestObject('Object Repository/create/input_Title_title'), title)
 
-WebUI.setText(findTestObject('Object Repository/create/textarea_Text_text'), 'new new')
-
-WebUI.click(findTestObject('Object Repository/create/input_Text_submit'))
-
-WebUI.click(findTestObject('Object Repository/create/a_Add News'))
-
-WebUI.setText(findTestObject('Object Repository/create/textarea_Text_text'), 'news')
+WebUI.setText(findTestObject('Object Repository/create/textarea_Text_text'), text)
 
 WebUI.click(findTestObject('Object Repository/create/input_Text_submit'))
 
 WebUI.click(findTestObject('Object Repository/create/a_Add News'))
-
-WebUI.setText(findTestObject('Object Repository/create/input_Title_title'), 'one more')
-
-WebUI.setText(findTestObject('Object Repository/create/textarea_Text_text'), '')
-
-WebUI.click(findTestObject('Object Repository/create/input_Text_submit'))
 
 WebUI.click(findTestObject('Object Repository/create/a_Home'))
+
+switch (cek_action.toString()) {
+    case 'semua terisi':
+        WebUI.verifyElementPresent(findTestObject('p_News added successfully'), 5)
+
+        break
+    case 'text kosong':
+        WebUI.verifyElementPresent(findTestObject('p_The Text field is required'), 5)
+
+        break
+    case 'title kosong':
+        WebUI.verifyElementPresent(findTestObject('p_The Title field is required'), 5)
+
+        break
+    case 'semua kosong':
+        WebUI.verifyElementPresent(findTestObject('p_The Title field is required'), 5)
+
+        WebUI.verifyElementPresent(findTestObject('p_The Text field is required'), 5)
+
+        break
+}
 
 WebUI.closeBrowser()
 
