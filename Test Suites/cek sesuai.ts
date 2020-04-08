@@ -52,13 +52,19 @@
    <testCaseLink>
       <guid>292c60e7-6a2a-4c03-879b-d19e2ff96536</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/delete</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>b8766bf2-603e-4af5-8979-1359fd926fc1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e784f22-c854-458b-ab5c-5ceba1441f51</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
